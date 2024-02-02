@@ -1,0 +1,47 @@
+/* Esse Css é para a customização do Header contendo os dados de navegação */
+
+.navegator{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    /* border: 5px solid white; */
+    min-height: 40px;
+    max-width: 500px;
+}
+
+
+/* Botão  */
+.button {
+    color: #fff;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    text-decoration: none;
+    text-shadow: 0 0 0;
+    margin: 15px;
+    transition: text-shadow 0.5s ease;
+}
+
+.button:hover{
+    text-shadow: 0 0 10px #fff;
+}
+
+.button::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s ease;
+
+}
+
+.button:hover::before {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}

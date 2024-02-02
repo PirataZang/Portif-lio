@@ -1,0 +1,20 @@
+.Perfil {
+    display: grid;
+    text-align: justify;
+    margin: 20px;
+    background-color: transparent;
+    color: white;
+    min-height: 800px;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.Perfil-Div{
+    position: relative;
+    padding: 20px;
+    border: 2px solid white;
+    max-width: 500px;
+    max-height: 300px;
+    overflow-wrap: break-word;
+}
