@@ -11,8 +11,9 @@
 <body>
 
   <header>
-    <a class="button" href="#SobreMim">Sobre Mim</a>
-    <a class="button" href="#Projects">Projetos</a>
+    <a class="button" href="#SobreMim" onclick="scrollToElement(event)">Sobre Mim</a>
+    <a class="button" href="#Projects" onclick="scrollToElement(event)">Projetos</a>
+    <a class="button" href="#Contatos" onclick="scrollToElement(event)">Contatos</a>
     <!-- <a class="button" href="#Project">Projetos</a>
       <a class="button" href="#Project">Projetos</a> -->
   </header>
@@ -32,7 +33,7 @@
     <div id="repoDetails" class="divProjetos"></div>
   </section>
 
-  <section>
+  <section id="Contatos">
     <h2>Contato</h2>
     <p>Email: seuemail@example.com</p>
     <p>LinkedIn: <a href="https://www.linkedin.com/in/seulinkedin" target="_blank">linkedin.com/in/seulinkedin</a></p>
@@ -40,7 +41,10 @@
   </section>
 
   <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
   <script src="JS/APIGithub.js" defer></script>
+  <script src="main.js"></script>
+  <script src="JS/Rolagem.js"></script>
 </body>
 
 </html>
