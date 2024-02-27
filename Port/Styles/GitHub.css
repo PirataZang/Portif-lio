@@ -64,8 +64,7 @@
 }
 
 #divRepos:hover{
-    height: 300px;
-    width: 700px;
+    height: 200px;
     box-shadow: white 0px 6px 40px;
     #ReposDescription{
         opacity: 100%;
