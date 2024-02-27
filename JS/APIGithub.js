@@ -7,9 +7,9 @@ const repoDetailsContainer = document.getElementById('repoDetails');
 
 // 1. Obter informações do usuário
 fetch(`https://api.github.com/users/${username}`, {
-  headers: {
-    Authorization: `Bearer ${token}`
-  }
+  // headers: {
+  //   Authorization: `Bearer ${token}`
+  // }
 })
 
   .then(response => response.json())
