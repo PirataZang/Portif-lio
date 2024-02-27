@@ -1,9 +1,10 @@
 @import url(Navegation.css);
 @import url(Perfil.css);
 @import url(GitHub.css);
+@import url(Contato.css);
 
 body {
-  font-family: 'Arial', sans-serif;
+  font-family: 'Courier New', Courier, monospace;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -45,5 +46,10 @@ section {
   width: 100%;
   height: 100%;
   background: #000;
-  /* Cor de fundo de backup */
 }
+
+/* Scroll */
+::-webkit-scrollbar {
+  width: 0px; 
+}
+

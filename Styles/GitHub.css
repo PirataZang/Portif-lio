@@ -1,7 +1,14 @@
 /* Estilos para Projetos vindos da API */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
 
-.divProjetos{
+#Projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.divProjetos {
     display: flex;
     align-items: center;
     text-align: center;
@@ -13,7 +20,7 @@
 }
 
 
-#divRepos{
+#divRepos {
     display: grid;
     justify-content: center;
     justify-items: center;
@@ -24,10 +31,10 @@
     width: 450px;
     word-break: break-all;
     overflow: hidden;
-    transition: all  1s ease;
+    transition: all 1s ease;
 }
 
-#TitleRepos{
+#TitleRepos {
     color: white;
     font-weight: bolder;
     text-shadow: #87cbff 0px 0px 2px;
@@ -35,13 +42,13 @@
     transition: all 0.5s linear;
 }
 
-#ReposDescription{
+#ReposDescription {
     opacity: 0%;
     text-align: center;
     transition: all 1s steps(5);
 }
 
-#link{
+#link {
     display: grid;
     justify-content: center;
     align-items: center;
@@ -57,19 +64,21 @@
     transition: all 0.5s linear;
 }
 
-#link:hover{
+#link:hover {
     background-color: white;
     color: black;
     font-weight: bold;
 }
 
-#divRepos:hover{
+#divRepos:hover {
     height: 200px;
     box-shadow: white 0px 6px 40px;
-    #ReposDescription{
+
+    #ReposDescription {
         opacity: 100%;
     }
-    #TitleRepos{
+
+    #TitleRepos {
         text-shadow: #87cbff 0px 0px 15px;
     }
 }
