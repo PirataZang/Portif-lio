@@ -1,7 +1,7 @@
 // Nome de Usuário do GitHuv
 const username = 'PirataZang';
 // Token
-const token = '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';
+const token = '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';
 // Div onde será carregada os Dados do Repositório
 const repoDetailsContainer = document.getElementById('repoDetails');
 
