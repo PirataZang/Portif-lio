@@ -16,9 +16,9 @@ fetch(`https://api.github.com/users/${username}`, {
   .then(user => {
     // 2. Obter todos os repositórios do usuário
     fetch(`https://api.github.com/users/${username}/repos`, {
-      headers: {
-        Authorization: `Bearer ${token}`
-      }
+      // headers: {
+      //   Authorization: `Bearer ${token}`
+      // }
     })
       .then(response => response.json())
 
