@@ -1,7 +1,5 @@
 // Nome de Usuário do GitHuv
 const username = 'PirataZang';
-// Token do Git
-const token = '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';
 // Div onde será carregada os Dados do Repositório
 const repoDetailsContainer = document.getElementById('repoDetails');
 
@@ -16,6 +14,9 @@ fetch(`https://api.github.com/users/${username}`, {
   .then(user => {
     // 2. Obter todos os repositórios do usuário
     fetch(`https://api.github.com/users/${username}/repos`, {
+      // headers: {
+      //   Authorization: `Bearer ${token}`
+      // }
     })
       .then(response => response.json())
 
