@@ -41,9 +41,15 @@ fetch(`https://api.github.com/users/${username}`, {
           // Cria um Link de acesso ao Repositório
           const repoLinkElement = document.createElement('a');
           repoLinkElement.href = reposi.html_url;
-          repoLinkElement.id = 'link'
+          repoLinkElement.id = 'link';
           repoLinkElement.target = '#';
           repoLinkElement.textContent = 'Ver no GitHub';
+
+          const repoLinkHomepage = document.createElement('a');
+          repoLinkHomepage.href = reposi.homepage;
+          repoLinkHomepage.id = 'homepage';
+          repoLinkHomepage.target = '#';
+          repoLinkElement.textContent = "Acessar Página";
 
           // Adicione os elementos ao container
           repoDetailsContainer.appendChild(reposDiv);
