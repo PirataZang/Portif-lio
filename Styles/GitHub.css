@@ -95,7 +95,7 @@
 }
 
 #divRepos:hover {
-    height: 200px;
+    height: 250px;
     box-shadow: white 0px 6px 40px;
 
     #ReposDescription {
