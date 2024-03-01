@@ -49,7 +49,7 @@ fetch(`https://api.github.com/users/${username}`, {
           repoLinkHomepage.href = reposi.homepage;
           repoLinkHomepage.id = 'homepage';
           repoLinkHomepage.target = '#';
-          repoLinkElement.textContent = "Acessar Página";
+          repoLinkHomepage.textContent = "Acessar Página";
 
           // Adicione os elementos ao container
           repoDetailsContainer.appendChild(reposDiv);
