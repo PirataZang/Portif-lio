@@ -56,7 +56,9 @@ fetch(`https://api.github.com/users/${username}`, {
           reposDiv.appendChild(repoNameElement);
           reposDiv.appendChild(repoDescriptionElement);
           reposDiv.appendChild(repoLinkElement);
-          reposDiv.appendChild(repoLinkHomepage);
+          if(reposi.homepage){
+            reposDiv.appendChild(repoLinkHomepage);
+          }
 
           // Carrega no Console os Nome dos Reposítório
           console.log(reposi.name);
