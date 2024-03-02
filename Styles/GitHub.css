@@ -122,4 +122,8 @@
         min-width: 150px;
         max-width: 300px;
     }
+    
+    #divRepos:hover {
+        height: 350px;
+    }
 }
