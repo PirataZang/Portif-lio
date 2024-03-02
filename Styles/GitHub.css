@@ -18,7 +18,6 @@
     gap: 25px;
 }
 
-
 #divRepos {
     display: grid;
     flex: 2;
@@ -109,19 +108,22 @@
 
 
 @media screen and (max-width: 700px) {
-    #divRepos {
-        display: grid;
-        flex: 2;
+    #Projects {
+        width: 300px;
+    }
+
+
+    .divProjetos {
+        align-items: center;
+        text-align: center;
         justify-content: center;
-        justify-items: center;
-        padding: 20px;
-        border-radius: 15px;
-        height: 50px;
-        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-        min-width: 300px;
-        max-width: 350px;
-        word-break: break-all;
-        overflow: hidden;
-        transition: all 1s ease;
+        flex-wrap: wrap;
+        min-height: 520px;
+        gap: 50px;
+    }
+
+    #divRepos {
+        height: 90px;
+        min-width: 100px;
     }
 }
