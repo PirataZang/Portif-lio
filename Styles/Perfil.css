@@ -65,6 +65,20 @@
 }
 
 
+@media screen and (max-width: 1000px) {
+    .Foto{
+        max-width: 200px;
+    }
+
+    .Perfil-Div {
+        padding: 0;
+        margin-left: 20px;
+        margin-right: 20px;
+        top: 30px;
+    }
+}
+
+
 @media screen and (max-width: 700px) {
     #SobreMim {
         display: flex;
@@ -82,17 +96,7 @@
         max-height: 300px;
     }
 
-    .Perfil-Div div {
-        overflow: hidden;
-        overflow-wrap: break-word;
-        border-right: 2px solid #000;
-        animation: escrever 7s steps(75, end);
-    }
-
     .Foto {
         display: none;
-        border-radius: 100%;
-        width: 450px;
-        animation: pulse 2s infinite ease-in-out;
     }
 }
